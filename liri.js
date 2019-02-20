@@ -24,58 +24,60 @@ let str = process.argv.slice(3).join(' ')
     ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 */
 const callMusic = (str)=>{
-    console.log('\n---------------------------------------')
-    console.log('Searching Spotify for ' + str)
-    console.log('---------------------------------------\n')
+    let φ = ''
+    φ += '\n-------------------------------------------------------'
+    φ += '\nSearching Spotify for ' + str
+    φ += '\n-------------------------------------------------------\n'
     spotify.search({type: 'track', query: str}, (err,song)=>{
         if (err) return console.log('Error: ' + err)
         let μ = song.tracks.items
         for (let i in μ) {
-            let φ = μ[i].album.artists[0]
-            console.log('---------------------------------------\n')
-            console.log('Artist:       ' + μ[i].album.artists[0].name)
-            console.log('Song Title:   ' + μ[i].name)
-            console.log('Album:        ' + μ[i].album.name)
-            console.log('Preview Link: ' + μ[i].external_urls.spotify)
-            console.log()
+            φ += '\n---------------------------------------\n'
+            φ += '\nArtist:       ' + μ[i].album.artists[0].name
+            φ += '\nSong Title:   ' + μ[i].name
+            φ += '\nAlbum:        ' + μ[i].album.name
+            φ += '\nPreview Link: ' + μ[i].external_urls.spotify + '\n'
         }
-        console.log('---------------------------------------\n')
+        φ += '\n---------------------------------------\n'
+        log(φ)
     })
 }
 const callMovie = (str)=>{
-    console.log('\n---------------------------------------')
-    console.log('Searching OMDB for ' + str)
-    console.log('---------------------------------------\n')
+    let φ = ''
+    φ += '\n-------------------------------------------------------'
+    φ += '\nSearching OMDB for ' + str
+    φ += '\n-------------------------------------------------------\n'
     let url = "http://www.omdbapi.com/?t=" + str + "&y=&plot=short&apikey=trilogy"
     axios.get(url).then((movie)=>{
-        // console.log(JSON.stringify(movie.data,null,2))
-        console.log('---------------------------------------\n')
-        console.log('Title:            ' + movie.data.Title)
-        console.log('Year:             ' + movie.data.Year)
-        console.log('IMDB Rating:      ' + movie.data.imdbRating)
-        console.log('Rotten Tomatoes:  ' + movie.data.Ratings[1].Value)
-        console.log('Country Produced: ' + movie.data.Country)
-        console.log('Language:         ' + movie.data.Language)
-        console.log('Plot:             ' + movie.data.Plot)
-        console.log('Actors:           ' + movie.data.Actors + '\n')
-        console.log('---------------------------------------\n')
+        φ += '\n---------------------------------------\n'
+        φ += '\nTitle:            ' + movie.data.Title
+        φ += '\nYear:             ' + movie.data.Year
+        φ += '\nIMDB Rating:      ' + movie.data.imdbRating
+        φ += '\nRotten Tomatoes:  ' + movie.data.Ratings[1].Value
+        φ += '\nCountry Produced: ' + movie.data.Country
+        φ += '\nLanguage:         ' + movie.data.Language
+        φ += '\nPlot:             ' + movie.data.Plot
+        φ += '\nActors:           ' + movie.data.Actors + '\n'
+        φ += '\n---------------------------------------\n'
+        log(φ)
     })
 }
 const callBands = (str)=>{
-    console.log('\n---------------------------------------')
-    console.log('Searching BandsinTown for ' + str)
-    console.log('---------------------------------------\n')
+    let φ = ''
+    φ += '\n-------------------------------------------------------'
+    φ += '\nSearching BandsinTown for ' + str
+    φ += '\n-------------------------------------------------------\n'
     let url = "https://rest.bandsintown.com/artists/" + str + "/events?app_id=codingbootcamp"
     axios.get(url).then((band)=>{
-        // console.log(JSON.stringify(band.data,null,2))
         let  d = band.data
         for (let i in d) {
-            console.log('---------------------------------------\n')
-            console.log('Venue:      ' + d[i].venue.name)
-            console.log('Location:   ' + d[i].venue.city + ', ' + d[i].venue.region + ' ' + d[i].venue.country)
-            console.log('Event Date: ' + moment(d[i].datetime).format('MM/DD/YYYY') + '\n')
+            φ += '\n---------------------------------------\n'
+            φ += '\nVenue:      ' + d[i].venue.name
+            φ += '\nLocation:   ' + d[i].venue.city + ', ' + d[i].venue.region + ' ' + d[i].venue.country
+            φ += '\nEvent Date: ' + moment(d[i].datetime).format('MM/DD/YYYY') + '\n'
         }
-        console.log('---------------------------------------\n')
+        φ += '\n---------------------------------------\n'
+        log(φ)
     })
 }
 const readFile = (str) => {
@@ -94,6 +96,12 @@ const readFile = (str) => {
             str = str.join(' ')
         }
         main(cmd,str)
+    })
+}
+const log = (φ) => {
+    console.log(φ)
+    fs.appendFile('log.txt',φ,(err)=> {
+        console.log('Error: ' + err)
     })
 }
 const main = (cmd,str)=>{
