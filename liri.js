@@ -25,58 +25,58 @@ let str = process.argv.slice(3).join(' ')
 */
 const callMusic = (str)=>{
     let φ = ''
-    φ += '\n-------------------------------------------------------'
-    φ += '\nSearching Spotify for ' + str
-    φ += '\n-------------------------------------------------------\n'
+    φ += '\r\n-------------------------------------------------------'
+    φ += '\r\nSearching Spotify for ' + str
+    φ += '\r\n-------------------------------------------------------\r\n'
     spotify.search({type: 'track', query: str}, (err,song)=>{
         if (err) return console.log('Error: ' + err)
         let μ = song.tracks.items
         for (let i in μ) {
-            φ += '\n---------------------------------------\n'
-            φ += '\nArtist:       ' + μ[i].album.artists[0].name
-            φ += '\nSong Title:   ' + μ[i].name
-            φ += '\nAlbum:        ' + μ[i].album.name
-            φ += '\nPreview Link: ' + μ[i].external_urls.spotify + '\n'
+            φ += '\r\n---------------------------------------\r\n'
+            φ += '\r\nArtist:       ' + μ[i].album.artists[0].name
+            φ += '\r\nSong Title:   ' + μ[i].name
+            φ += '\r\nAlbum:        ' + μ[i].album.name
+            φ += '\r\nPreview Link: ' + μ[i].external_urls.spotify + '\r\n'
         }
-        φ += '\n---------------------------------------\n'
+        φ += '\r\n---------------------------------------\r\n'
         log(φ)
     })
 }
 const callMovie = (str)=>{
     let φ = ''
-    φ += '\n-------------------------------------------------------'
-    φ += '\nSearching OMDB for ' + str
-    φ += '\n-------------------------------------------------------\n'
+    φ += '\r\n-------------------------------------------------------'
+    φ += '\r\nSearching OMDB for ' + str
+    φ += '\r\n-------------------------------------------------------\r\n'
     let url = "http://www.omdbapi.com/?t=" + str + "&y=&plot=short&apikey=trilogy"
     axios.get(url).then((movie)=>{
-        φ += '\n---------------------------------------\n'
-        φ += '\nTitle:            ' + movie.data.Title
-        φ += '\nYear:             ' + movie.data.Year
-        φ += '\nIMDB Rating:      ' + movie.data.imdbRating
-        φ += '\nRotten Tomatoes:  ' + movie.data.Ratings[1].Value
-        φ += '\nCountry Produced: ' + movie.data.Country
-        φ += '\nLanguage:         ' + movie.data.Language
-        φ += '\nPlot:             ' + movie.data.Plot
-        φ += '\nActors:           ' + movie.data.Actors + '\n'
-        φ += '\n---------------------------------------\n'
+        φ += '\r\n---------------------------------------\r\n'
+        φ += '\r\nTitle:            ' + movie.data.Title
+        φ += '\r\nYear:             ' + movie.data.Year
+        φ += '\r\nIMDB Rating:      ' + movie.data.imdbRating
+        φ += '\r\nRotten Tomatoes:  ' + movie.data.Ratings[1].Value
+        φ += '\r\nCountry Produced: ' + movie.data.Country
+        φ += '\r\nLanguage:         ' + movie.data.Language
+        φ += '\r\nPlot:             ' + movie.data.Plot
+        φ += '\r\nActors:           ' + movie.data.Actors + '\r\n'
+        φ += '\r\n---------------------------------------\r\n'
         log(φ)
     })
 }
 const callBands = (str)=>{
     let φ = ''
-    φ += '\n-------------------------------------------------------'
-    φ += '\nSearching BandsinTown for ' + str
-    φ += '\n-------------------------------------------------------\n'
+    φ += '\r\n-------------------------------------------------------'
+    φ += '\r\nSearching BandsinTown for ' + str
+    φ += '\r\n-------------------------------------------------------\r\n'
     let url = "https://rest.bandsintown.com/artists/" + str + "/events?app_id=codingbootcamp"
     axios.get(url).then((band)=>{
         let  d = band.data
         for (let i in d) {
-            φ += '\n---------------------------------------\n'
-            φ += '\nVenue:      ' + d[i].venue.name
-            φ += '\nLocation:   ' + d[i].venue.city + ', ' + d[i].venue.region + ' ' + d[i].venue.country
-            φ += '\nEvent Date: ' + moment(d[i].datetime).format('MM/DD/YYYY') + '\n'
+            φ += '\r\n---------------------------------------\r\n'
+            φ += '\r\nVenue:      ' + d[i].venue.name
+            φ += '\r\nLocation:   ' + d[i].venue.city + ', ' + d[i].venue.region + ' ' + d[i].venue.country
+            φ += '\r\nEvent Date: ' + moment(d[i].datetime).format('MM/DD/YYYY') + '\r\n'
         }
-        φ += '\n---------------------------------------\n'
+        φ += '\r\n---------------------------------------\r\n'
         log(φ)
     })
 }
