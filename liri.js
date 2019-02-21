@@ -80,14 +80,27 @@ const callBands = (str)=>{
         log(φ)
     })
 }
-const readFile = (cmd)=>{
-    cmd = cmd || 'random.txt'
-    fs.readFile(cmd,'utf8',(err,data)=>{
-        if (err) return readFile('random.txt')
+const readFile = (cmd,str)=>{
+    let fileName
+    if (str && (str.length - str.indexOf('.') === 4)) {
+        // str exists & ends with '.xxx', so we assume it's a valid filename
+        fileName = str
+    } else if (cmd && (cmd.length - cmd.indexOf('.') === 4)) {
+        // no file command was given, but cmd contains a valid filename
+        fileName = cmd
+    } else {
+        // no valid filename was given, use default file
+        fileName = 'random.txt'
+    }
+    fs.readFile(fileName,'utf8',(err,data)=>{
+        if (err) return readFile()
+        // account for the possibility that the file does not contain a comma to separate cmd from str
         if (data.includes(',')) {
+            // file contains a comma, cmd is before, str is after
             cmd = data.split(',')[0]
             str = data.split(',')[1]
         } else {
+            // file does not contain a comma, cmd is first word, str is all words after
             cmd = data.split(' ')[0]
             str = []
             for (let i = 1; i < data.split(' ').length; i++) {
@@ -99,22 +112,21 @@ const readFile = (cmd)=>{
     })
 }
 const log = (φ)=>{
+    // φ is the variable containing all the text
     console.log(φ)
-    fs.appendFile('log.txt',φ,(err)=> {
-        console.log('Error: ' + err)
-    })
+    fs.appendFile('log.txt',φ,(err)=> {})
 }
 const main = (cmd,str)=>{
     if (!cmd) cmd = 'x'
-    let c = cmd[0].toLowerCase()
-    if (c === 'c') {
+    let c = cmd.toLowerCase()
+    if (c.startsWith('concert')) {
         callBands(str)
-    } else if (c === 's') {
+    } else if (c.startsWith('spotify')) {
         callMusic(str)
-    } else if (c === 'm') {
+    } else if (c.startsWith('movie')) {
         callMovie(str)
     } else {
-        readFile(cmd)
+        readFile(cmd,str)
     }
 }
 

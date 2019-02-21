@@ -15,4 +15,4 @@ Liri will also read commands from a text file that defaults to 'random.txt', but
 * bandsintown
 
 ### Demo
-[Demo video here](https://youtu.be/NQ-Tgvc4tzY)
+[Demo video here](https://youtu.be/VEc7WdlPcYc)
