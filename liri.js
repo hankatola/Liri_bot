@@ -80,10 +80,10 @@ const callBands = (str)=>{
         log(φ)
     })
 }
-const readFile = (str) => {
-    str = str || 'random.txt'
-    fs.readFile(str,'utf8',(err,data)=>{
-        if (err) return console.log('Error: ' + err)
+const readFile = (cmd)=>{
+    cmd = cmd || 'random.txt'
+    fs.readFile(cmd,'utf8',(err,data)=>{
+        if (err) return readFile('random.txt')
         if (data.includes(',')) {
             cmd = data.split(',')[0]
             str = data.split(',')[1]
@@ -98,7 +98,7 @@ const readFile = (str) => {
         main(cmd,str)
     })
 }
-const log = (φ) => {
+const log = (φ)=>{
     console.log(φ)
     fs.appendFile('log.txt',φ,(err)=> {
         console.log('Error: ' + err)
@@ -106,17 +106,16 @@ const log = (φ) => {
 }
 const main = (cmd,str)=>{
     if (!cmd) cmd = 'x'
-    cmd = cmd[0].toLowerCase()
-    if (cmd === 'c') {
+    let c = cmd[0].toLowerCase()
+    if (c === 'c') {
         callBands(str)
-    } else if (cmd === 's') {
+    } else if (c === 's') {
         callMusic(str)
-    } else if (cmd === 'm') {
+    } else if (c === 'm') {
         callMovie(str)
     } else {
-        return readFile(str)
+        readFile(cmd)
     }
-
 }
 
 

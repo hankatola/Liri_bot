@@ -1,6 +1,95 @@
 
 -------------------------------------------------------
-Searching Spotify for  I Want it That Way
+Searching Spotify for shane and shane though you slay me
+-------------------------------------------------------
+
+---------------------------------------
+
+Artist:       Shane & Shane
+Song Title:   Though You Slay Me
+Album:        Bring Your Nothing
+Preview Link: https://open.spotify.com/track/2Ujuq5IFtnJJ7b63okoUo6
+
+---------------------------------------
+
+Artist:       Shane & Shane
+Song Title:   Though You Slay Me
+Album:        The Worship Initiative, Vol. 5
+Preview Link: https://open.spotify.com/track/5RRcYuHdjn9zsaOToExKog
+
+---------------------------------------
+
+Artist:       Shane & Shane
+Song Title:   Though You Slay Me
+Album:        Though You Slay Me (The Worship Initiative Accompaniment)
+Preview Link: https://open.spotify.com/track/038Ox7V6oTZPzIvzl1StsO
+
+---------------------------------------
+
+Artist:       Shane & Shane
+Song Title:   Though You Slay Me (Instrumental)
+Album:        Though You Slay Me (The Worship Initiative Accompaniment)
+Preview Link: https://open.spotify.com/track/26dlixhVL4xcl9SpieqSSj
+
+---------------------------------------
+
+Artist:       Shane & Shane
+Song Title:   Though You Slay Me (Accompaniment Track)
+Album:        Though You Slay Me (The Worship Initiative Accompaniment)
+Preview Link: https://open.spotify.com/track/6t6X9wkWe9losLfsFeEocx
+
+---------------------------------------
+
+-------------------------------------------------------
+Searching OMDB for remember the titans
+-------------------------------------------------------
+
+---------------------------------------
+
+Title:            Remember the Titans
+Year:             2000
+IMDB Rating:      7.8
+Rotten Tomatoes:  73%
+Country Produced: USA
+Language:         English
+Plot:             The true story of a newly appointed African-American coach and his high school team on their first season as a racially integrated unit.
+Actors:           Denzel Washington, Will Patton, Wood Harris, Ryan Hurst
+
+---------------------------------------
+
+-------------------------------------------------------
+Searching BandsinTown for shane and shane
+-------------------------------------------------------
+
+---------------------------------------
+
+Venue:      Farley Street Baptist Church
+Location:   Waxahachie, TX United States
+Event Date: 02/22/2019
+
+---------------------------------------
+
+Venue:      Ferrell Center
+Location:   Waco, TX United States
+Event Date: 04/19/2019
+
+---------------------------------------
+
+Venue:      JSerra Catholic High School
+Location:   San Juan Capistrano, CA United States
+Event Date: 04/21/2019
+
+---------------------------------------
+
+Venue:      Calvary Chapel Tri-Cities
+Location:   Kennewick, WA United States
+Event Date: 04/26/2019
+
+---------------------------------------
+
+-------------------------------------------------------
+Searching Spotify for i want it that way
+
 -------------------------------------------------------
 
 ---------------------------------------
@@ -142,5 +231,249 @@ Artist:       Kyle Olthoff
 Song Title:   I Want It That Way
 Album:        I Want It That Way
 Preview Link: https://open.spotify.com/track/1UUw0IsDzxCxJ6v0dlygUy
+
+---------------------------------------
+
+-------------------------------------------------------
+Searching BandsinTown for elton john
+
+-------------------------------------------------------
+
+---------------------------------------
+
+Venue:      Target Center
+Location:   Minneapolis, MN United States
+Event Date: 02/21/2019
+
+---------------------------------------
+
+Venue:      U.S. Bank Arena
+Location:   Cincinnati, OH United States
+Event Date: 02/27/2019
+
+---------------------------------------
+
+Venue:      Times Union Center
+Location:   Albany, NY United States
+Event Date: 03/01/2019
+
+---------------------------------------
+
+Venue:      Barclays Center
+Location:   Brooklyn, NY United States
+Event Date: 03/08/2019
+
+---------------------------------------
+
+Venue:      PNC Arena
+Location:   Raleigh, NC United States
+Event Date: 03/12/2019
+
+---------------------------------------
+
+Venue:      Colonial Life Arena
+Location:   Columbia, SC United States
+Event Date: 03/13/2019
+
+---------------------------------------
+
+Venue:      Jacksonville Veterans Memorial Arena
+Location:   Jacksonville, FL United States
+Event Date: 03/15/2019
+
+---------------------------------------
+
+Venue:      Tauron Arena
+Location:   Kraków,  Poland
+Event Date: 05/04/2019
+
+---------------------------------------
+
+Venue:      O2 Arena
+Location:   Prague,  Czech Republic
+Event Date: 05/07/2019
+
+---------------------------------------
+
+Venue:      Ziggo Dome
+Location:   Nieuw-amsterdam,  Netherlands
+Event Date: 05/15/2019
+
+---------------------------------------
+
+Venue:      Royal Arena
+Location:   Copenhagen,  Denmark
+Event Date: 05/18/2019
+
+---------------------------------------
+
+Venue:      Scandinavium
+Location:   Goteborg,  Sweden
+Event Date: 05/19/2019
+
+---------------------------------------
+
+-------------------------------------------------------
+Searching OMDB for the matrix
+
+-------------------------------------------------------
+
+---------------------------------------
+
+Title:            The Matrix
+Year:             1999
+IMDB Rating:      8.7
+Rotten Tomatoes:  88%
+Country Produced: USA
+Language:         English
+Plot:             A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors:           Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+---------------------------------------
+
+-------------------------------------------------------
+Searching Spotify for master of puppets
+
+-------------------------------------------------------
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Master of Puppets (Remastered)
+Album:        Master of Puppets (Remastered Deluxe Box Set)
+Preview Link: https://open.spotify.com/track/54bm2e3tk8cliUz3VSdCPZ
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Battery (Remastered)
+Album:        Master of Puppets (Remastered Deluxe Box Set)
+Preview Link: https://open.spotify.com/track/7wz8LNfmGZ3C0PwKW9LdDg
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Welcome Home (Sanitarium) (Remastered)
+Album:        Master of Puppets (Remastered Deluxe Box Set)
+Preview Link: https://open.spotify.com/track/7LHZ7HA45ezKcdN8sBrBuS
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Master Of Puppets (Remastered)
+Album:        Master of Puppets (Remastered)
+Preview Link: https://open.spotify.com/track/5cW3DEWYYv0tXZMwcUZNRg
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Orion (Remastered)
+Album:        Master of Puppets (Remastered Deluxe Box Set)
+Preview Link: https://open.spotify.com/track/4xyWJM4kscTROV2RESdwpd
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Disposable Heroes (Remastered)
+Album:        Master of Puppets (Remastered Deluxe Box Set)
+Preview Link: https://open.spotify.com/track/2a2le1M7cmvdrg1QHH7H53
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   The Thing That Should Not Be (Remastered)
+Album:        Master of Puppets (Remastered Deluxe Box Set)
+Preview Link: https://open.spotify.com/track/0Zo0GJhGcT2qKFb5NxY3Vf
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Leper Messiah (Remastered)
+Album:        Master of Puppets (Remastered Deluxe Box Set)
+Preview Link: https://open.spotify.com/track/6u5I4WWb8KDN559xT2hrQ6
+
+---------------------------------------
+
+Artist:       Trivium
+Song Title:   Master of Puppets
+Album:        Ascendancy [Special Edition]
+Preview Link: https://open.spotify.com/track/0P5D7ji9AJi85bEdQhq50a
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Damage, Inc. (Remastered)
+Album:        Master of Puppets (Remastered Deluxe Box Set)
+Preview Link: https://open.spotify.com/track/5X5wkmwPA1rQwtBdh2SNTv
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Battery (Remastered)
+Album:        Master of Puppets (Remastered)
+Preview Link: https://open.spotify.com/track/7qRxAH7ZRB2Ita3mebXfR3
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Welcome Home (Sanitarium) (Remastered)
+Album:        Master of Puppets (Remastered)
+Preview Link: https://open.spotify.com/track/5Nu6hybktveVXtgD7hDLVD
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Orion (Remastered)
+Album:        Master of Puppets (Remastered)
+Preview Link: https://open.spotify.com/track/1J6aXHOMNalN2YGLpVAD7e
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Master Of Puppets - Live with the SFSO
+Album:        S&M
+Preview Link: https://open.spotify.com/track/0wFL6kJKvHY6t5OcOiAbCZ
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   The Thing That Should Not Be (Remastered)
+Album:        Master of Puppets (Remastered)
+Preview Link: https://open.spotify.com/track/6ZertsLLGL2puI2Vj5iy5T
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Disposable Heroes (Remastered)
+Album:        Master of Puppets (Remastered)
+Preview Link: https://open.spotify.com/track/2CbYOuq9uxqclV21HJaJ4B
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Leper Messiah (Remastered)
+Album:        Master of Puppets (Remastered)
+Preview Link: https://open.spotify.com/track/6yyionnLDzrrSET4pGoFSX
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Damage, Inc. (Remastered)
+Album:        Master of Puppets (Remastered)
+Preview Link: https://open.spotify.com/track/5PZ03nZ4rF3dG1QH7NeXMp
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Master of Puppets (Live)
+Album:        Metallica Through The Never (Music from the Motion Picture)
+Preview Link: https://open.spotify.com/track/41sVWpRzx9EW7qhpPSr3Af
+
+---------------------------------------
+
+Artist:       Metallica
+Song Title:   Master Of Puppets (Live in Mexico City)
+Album:        Live S**t: Binge & Purge
+Preview Link: https://open.spotify.com/track/6JUnhPGCcauwmkmDRnfZJA
 
 ---------------------------------------
